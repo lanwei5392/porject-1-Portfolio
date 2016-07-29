@@ -1,0 +1,90 @@
+element.style {
+}
+
+.body {
+    width: 100%;
+    max-width: 1213px;
+}
+
+.grid {
+    width: 100%;
+    max-width: 1200px;
+    margin: auto;
+}
+.gallery {
+    display: flex;
+    -webkit-margin-before: 1em;
+    -webkit-margin-start: 11px;
+    -webkit-margin-end: 11px;
+    height: 250px;
+    background-color: rgba(255, 165, 0, 0.55);
+}
+
+.logo {
+    width: 40%;
+    float: left;
+
+}
+
+.logo>img {
+    display: flex;
+    padding-top: 40px;
+    width: 140px;
+    height: 180px;
+    border-radius: 50%;
+    margin: auto;
+    max-width: 100%;
+}
+
+.heading {
+    width: 60%;
+}
+
+.gallery-name {
+    display: block;
+    padding-top: 60px;
+    font-size: 40px;
+    color: black;
+    text-align: left;
+}
+
+.gallery-messages {
+    display: block;
+    margin: 0px 11px 0px 11px;
+    padding: 50px;
+    text-align: left;
+    font: 24px bold;
+    background-color: rgba(158, 158, 158, 0.32);
+    max-width: 100%;
+}
+
+.animals {
+    display: flex;
+    border-image: none;
+    margin-left: 11px;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.animal-image>img {
+    display: flex;
+    width: 234px;
+    height: 192px;
+    padding-right: 2px;
+    background-color: rgba(158, 158, 158, 0.32);
+}
+
+.chitas-image>img {
+    display: flex;
+    width: 234px;
+    height: 192px;
+    background-color: rgba(158, 158, 158, 0.32);
+}
+
+menu {
+    color: red;
+}
+
+navigation {
+    background-color: #333 /* darkgrey */;
+}
